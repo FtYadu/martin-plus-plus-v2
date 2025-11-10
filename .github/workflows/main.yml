@@ -1,0 +1,4 @@
+- name: 'notify vercel'
+  uses: 'vercel/repository-dispatch/actions/status@v1'
+  with:
+    name: Vercel - martin-plus-plus-v2-mxoo: lint
