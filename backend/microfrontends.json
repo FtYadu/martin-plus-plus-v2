@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "martin-plus-plus-v2-mxoo": {
+      "development": {
+        "fallback": "martin-plus-plus-v2-mxoo.vercel.app"
+      }
+    },
+    "martin-plus-plus-v2": {
+      "routing": [
+        {
+          "paths": [/* add paths here */]
+        }
+      ]
+    }
+  }
+}
